@@ -112,8 +112,7 @@ TARGET_KERNEL_CONFIG := msm8916_sec_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_tmo_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SELINUX_LOG_CONFIG := selinux_log_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gprimeltetmo
-#TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/grandprime
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := false
@@ -260,7 +259,6 @@ KERNEL_EXTERNAL_MODULES:
 	make -C device/samsung/gprimeltetmo/wlan/prima/ WLAN_ROOT=$(ANDROID_BUILD_TOP)/device/samsung/gprimeltetmo/wlan/prima/ \
 		KERNEL_SOURCE=$(KERNEL_OUT) ARCH="arm" \
 		CROSS_COMPILE="arm-eabi-"
-#		CROSS_COMPILE=$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
 	mkdir $(KERNEL_MODULES_OUT)/$(WLAN_CHIPSET)/ -p
 	ln -sf /system/lib/modules/$(WLAN_CHIPSET)/$(WLAN_CHIPSET)_wlan.ko $(TARGET_OUT)/lib/modules/wlan.ko
 	mv device/samsung/gprimeltetmo/wlan/prima/wlan.ko $(KERNEL_MODULES_OUT)/$(WLAN_CHIPSET)/$(WLAN_CHIPSET)_wlan.ko
