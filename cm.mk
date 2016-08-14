@@ -6,7 +6,7 @@ PRODUCT_RELEASE_NAME := Samsung Galaxy Grand Prime
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
-$(call inherit-product, device/samsung/gprimeltecan/full_gprimeltecan.mk)
+$(call inherit-product, device/samsung/gprimeltetmo/full_gprimeltetmo.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -15,10 +15,10 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gprimeltecan
-PRODUCT_NAME := cm_gprimeltecan
+PRODUCT_DEVICE := gprimeltetmo
+PRODUCT_NAME := cm_gprimeltetmo
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G530W
+PRODUCT_MODEL := SM-G530T
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 

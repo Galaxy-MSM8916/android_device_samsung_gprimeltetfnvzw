@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/gprimeltecan
+LOCAL_PATH := device/samsung/gprimeltetmo
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_04e8_Product_a005.kl:system/usr/keylayout/Vendor_04e8_Product_a005.kl \

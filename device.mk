@@ -1,17 +1,17 @@
-LOCAL_PATH := device/samsung/gprimeltecan
-$(call inherit-product-if-exists, vendor/samsung/gprimeltecan/gprimeltecan-vendor.mk)
+LOCAL_PATH := device/samsung/gprimeltetmo
+$(call inherit-product-if-exists, vendor/samsung/gprimeltetmo/gprimeltetmo-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/gprimeltecan/gprimeltecan-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gprimeltetmo/gprimeltetmo-common-vendor.mk)
 
 include $(LOCAL_PATH)/keylayout/Layouts.mk
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltecan/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltetmo/overlay
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dt.img:dt.img
@@ -308,8 +308,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.loc.nlp_name=com.qualcomm.location \
     ro.gps.agps_provider=1 \
     ro.pip.gated=0 \
-    ro.product.model=SM-G530W \
-    ro.product.device=gprimeltecan \
+    ro.product.model=SM-G530T \
+    ro.product.device=gprimeltetmo \
     cm.updater.uri=http://grandprime.ddns.net/api \
     ro.telephony.ril_class=SamsungQcomRIL
 
