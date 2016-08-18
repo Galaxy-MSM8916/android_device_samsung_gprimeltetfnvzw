@@ -172,6 +172,7 @@ PRODUCT_PACKAGES += \
 
 # libhealthd.qcom
 PRODUCT_PACKAGES += \
+    libhealthd.qcom \
     libhealthd
 
 # Lights
