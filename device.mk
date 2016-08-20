@@ -251,6 +251,7 @@ PRODUCT_PACKAGES += \
     curl \
     libbson \
     libcurl \
+    javax.btobex \
     tcpdump
 
 # OMX
