@@ -1,5 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
-ifeq ($(TARGET_DEVICE),gprimeltetmo)
+ifeq ($(TARGET_DEVICE),gprimeltecan)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
