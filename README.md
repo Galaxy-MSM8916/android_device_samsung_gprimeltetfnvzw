@@ -1,6 +1,6 @@
 # android_device_samsung_gprimeltetmo
 
-## Device tree for Samsung Galaxy Grand Prime G530T [grimeltecan]
+## Device tree for Samsung Galaxy Grand Prime G530T [grimeltetmo]
 
 Basic   | Spec Sheet
 -------:|:-------------------------
