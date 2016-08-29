@@ -362,6 +362,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hostapd \
     hostapd_cli \
+    iwconfig \
     libQWiFiSoftApCfg \
     libqsap_sdk \
     libwpa_client \
