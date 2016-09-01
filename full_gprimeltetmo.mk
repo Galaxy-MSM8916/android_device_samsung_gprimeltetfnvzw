@@ -27,5 +27,3 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G530T
 PRODUCT_MANUFACTURER := samsung
 
-
-$(call inherit-product-if-exists, vendor/samsung/gprimeltetmo/gprimeltetmo-vendor.mk)
