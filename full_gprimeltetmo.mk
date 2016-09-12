@@ -25,5 +25,5 @@ PRODUCT_DEVICE := gprimeltetmo
 PRODUCT_NAME := full_gprimeltetmo
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G530T
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 
