@@ -6,9 +6,6 @@ LOCAL_PATH := device/samsung/gprimeltetfnvzw
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := gprimeltetfnvzw,samsung_sm_g920l,g920l
 
-# Init
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimeltetfnvzw.cpp
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_tfn_defconfig
 
