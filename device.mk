@@ -1,16 +1,13 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gprimeltetmo/gprimeltetmo-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gprimeltetfnvzw/gprimeltetfnvzw-vendor.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gprimeltetmo
+LOCAL_PATH := device/samsung/gprimeltetfnvzw
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltetmo/overlay
-
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/dt.img:dt.img
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltetfnvzw/overlay
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -32,15 +29,15 @@ PRODUCT_COPY_FILES += \
 
 #NFC
 PRODUCT_PACKAGES += \
-	NfcNci
+	Nfc
 
 # NFC prebuilt files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/nfc/libnfc-sec-hal.conf:system/etc/libnfc-sec-hal.conf \
-	$(LOCAL_PATH)/nfc/libnfc-sec.conf:system/etc/libnfc-brcm.conf
+	$(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+	$(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-G530T \
-	ro.product.device=gprimeltetmo
+	ro.product.model=SM-S920L \
+	ro.product.device=gprimeltetfnvzw
 

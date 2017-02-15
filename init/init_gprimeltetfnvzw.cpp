@@ -49,6 +49,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 	
-    property_set("ro.product.model", "SM-G530T");
-    property_set("ro.product.device", "gprimeltetmo");
+    property_set("ro.product.model", "SM-S920L");
+    property_set("ro.product.device", "gprimeltetfnvzw");
 }

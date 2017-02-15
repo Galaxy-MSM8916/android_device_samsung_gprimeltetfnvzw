@@ -1,19 +1,19 @@
 # Inherit from common
 include device/samsung/gprimelte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gprimeltetmo
+LOCAL_PATH := device/samsung/gprimeltetfnvzw
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimeltetmo,samsung_sm_g530t,g530t
+TARGET_OTA_ASSERT_DEVICE := gprimeltetfnvzw,samsung_sm_g920l,g920l
 
 # Init
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimeltetmo.cpp
+TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimeltetfnvzw.cpp
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_tmo_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_tfn_defconfig
 
 # Partition sizes
-BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2327838720
+BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2097152000
 BOARD_SYSTEMIMAGE_PARTITION_TPE    := ext4
 BOARD_USERDATAIMAGE_PARTITION_SIZE  := 4974424064
 

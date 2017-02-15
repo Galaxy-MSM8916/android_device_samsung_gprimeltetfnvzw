@@ -15,12 +15,12 @@
 #
 
 # Inherit from device.mk
-$(call inherit-product, device/samsung/gprimeltetmo/device.mk)
+$(call inherit-product, device/samsung/gprimeltetfnvzw/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gprimeltetmo
-PRODUCT_NAME := full_gprimeltetmo
+PRODUCT_DEVICE := gprimeltetfnvzw
+PRODUCT_NAME := full_gprimeltetfnvzw
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G530T
+PRODUCT_MODEL := SM-S920L
 PRODUCT_MANUFACTURER := samsung
 

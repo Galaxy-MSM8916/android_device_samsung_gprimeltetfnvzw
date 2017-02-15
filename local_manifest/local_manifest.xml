@@ -2,9 +2,9 @@
 <manifest>
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1"/>
   <project path="device/samsung/gprimelte-common" name="vince2678/android_device_samsung_gprimelte-common" groups="device" remote="github" revision="cm-12.1"/>
-  <project path="device/samsung/gprimeltetmo" name="vince2678/android_device_samsung_gprimeltetmo" groups="device" remote="github" revision="cm-12.1"/>
+  <project path="device/samsung/gprimeltetfnvzw" name="vince2678/android_device_samsung_gprimeltetfnvzw" groups="device" remote="github" revision="cm-12.1"/>
   <project path="device/qcom-common" name="vince2678/android_device_qcom-common" remote="github" revision="cm-12.1"/>
-  <project path="vendor/samsung/gprimeltetmo" name="vince2678/android_vendor_samsung_gprimeltetmo" remote="github" revision="cm-12.1"/>
+  <project path="vendor/samsung/gprimeltetfnvzw" name="vince2678/android_vendor_samsung_gprimeltetfnvzw" remote="github" revision="cm-12.1"/>
   <project path="vendor/samsung/common" name="vince2678/android_vendor_samsung_common" remote="github" revision="cm-12.1"/>
   <project path="android/external/iwconfig" name="vince2678/android_external_iwconfig" remote="github" revision="cm-12.1"/>
   <project path="kernel/samsung/grandprime" name="vince2678/android_kernel_samsung_grandprime" remote="github" revision="cm-12.1"/>
