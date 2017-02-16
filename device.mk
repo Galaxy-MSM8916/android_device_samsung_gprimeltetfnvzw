@@ -28,8 +28,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml
 
 #NFC
-PRODUCT_PACKAGES += \
-	Nfc
+#PRODUCT_PACKAGES += \
+#	Nfc
 
 # NFC prebuilt files
 PRODUCT_COPY_FILES += \
