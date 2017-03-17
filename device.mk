@@ -27,9 +27,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
 	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml
 
-#NFC
-#PRODUCT_PACKAGES += \
-#	Nfc
+# NFC
+NXP_CHIP_TYPE := 1
+PRODUCT_PACKAGES += \
+	nfc_nci.pn54x.msm8916
 
 # NFC prebuilt files
 PRODUCT_COPY_FILES += \
