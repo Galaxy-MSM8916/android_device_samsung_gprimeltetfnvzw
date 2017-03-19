@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
+	persist.eons.enabled=false \
 	ro.product.model=SM-S920L \
 	ro.product.device=gprimeltetfnvzw
 

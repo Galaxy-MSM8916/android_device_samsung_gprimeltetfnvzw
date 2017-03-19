@@ -5,8 +5,7 @@
 # system.prop for msm8916
 #
 
-# KSM and ZRAM
-ro.config.ksm=false
+# ZRAM
 ro.config.zram=false
 
 # Evolution RIL (8xxx)
@@ -29,7 +28,6 @@ debug.egl.hw=1
 debug.composition.type=c2d
 persist.hwc.mdpcomp.enable=true
 debug.mdpcomp.logs=0
-dalvik.vm.heapsize=36m
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 
@@ -164,6 +162,12 @@ ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,9000
 
 # Default Network Mode (For 4G / Non global model)
 ro.telephony.default_network=8
+
+ro.carrier=unknown
+
+# Default Operator (TFN)
+ro.cdma.home.operator.numeric=310000
+ro.cdma.home.operator.alpha=TracFone
 
 ro.vendor.extension_library=libqti-perfd-client.so
 persist.radio.apm_sim_not_pwdn=1
