@@ -2,6 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/gprimeltetfnvzw/gprimeltetfnvzw-vendor.mk)
 
 # Inherit from common
+BOARD_NFC_CHIPSET := pn547
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/gprimeltetfnvzw
@@ -31,11 +32,6 @@ PRODUCT_COPY_FILES += \
 NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
 	nfc_nci.pn54x.msm8916
-
-# NFC prebuilt files
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-	$(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
