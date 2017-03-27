@@ -4,7 +4,7 @@ include device/samsung/gprimelte-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/gprimeltetfnvzw
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimeltetfnvzw,samsung_sm_g920l,g920l
+TARGET_OTA_ASSERT_DEVICE := gprimeltetfnvzw,samsung_sm_s920l,s920l
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_tfn_defconfig
