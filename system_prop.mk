@@ -9,7 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=240
+	ro.sf.lcd_density=260
 
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
