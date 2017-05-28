@@ -13,17 +13,6 @@ LOCAL_PATH := device/samsung/gprimeltetfnvzw
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltetfnvzw/overlay
 
-# Audio configuration
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
-
-# Media configurations
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/media/media_codecs_8929.xml:system/etc/media_codecs_8929.xml \
-	$(LOCAL_PATH)/media/media_codecs_8939.xml:system/etc/media_codecs_8939.xml \
-	$(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
-	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml
-
 # NFC
 NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
