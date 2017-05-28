@@ -17,10 +17,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltetfnvzw/overlay
 NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
 	nfc_nci.pn54x.msm8916
-
-# Properties
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.eons.enabled=false \
-	ro.product.model=SM-S920L \
-	ro.product.device=gprimeltetfnvzw
-

@@ -2,6 +2,10 @@
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.cabl=0
 
+# EONS
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.eons.enabled=false \
+
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.low_ram=false \
