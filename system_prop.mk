@@ -17,8 +17,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.cdma.home.operator.alpha=TracFone \
-	ro.cdma.home.operator.numeric=310000 \
 	ro.config.combined_signal=true \
-	ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000 \
-	telephony.lteOnCdmaDevice=1
+	ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000
