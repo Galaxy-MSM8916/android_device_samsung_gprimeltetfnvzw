@@ -84,6 +84,9 @@ etc/firmware/Signedrompatch_v21.bin
 etc/firmware/Signedrompatch_v20.bin
 
 # RIL
+bin/rild
+lib/libril.so
+lib/librilutils.so
 lib/libsec-ril.so
 
 # Sensors - G530WVLS2AQB2_G530WOYA2AQB2_G530WVLS2AQB2
