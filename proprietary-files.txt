@@ -76,6 +76,20 @@ vendor/lib/libqomx_jpegenc.so
 # NFC
 etc/firmware/nfc_test.bin
 
+# Qualcomm framework
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+vendor/lib/libqmi.so
+vendor/lib/lib-sec-disp.so
+
 # RIL
 bin/rild
 lib/libril.so
