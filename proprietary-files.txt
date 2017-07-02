@@ -76,12 +76,6 @@ vendor/lib/libqomx_jpegenc.so
 # NFC
 etc/firmware/nfc_test.bin
 
-# Other
-etc/firmware/Signedrompatch_v30.bin
-etc/firmware/Signedrompatch_v24.bin
-etc/firmware/Signedrompatch_v21.bin
-etc/firmware/Signedrompatch_v20.bin
-
 # RIL
 bin/rild
 lib/libril.so
