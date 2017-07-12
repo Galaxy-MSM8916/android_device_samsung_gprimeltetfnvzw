@@ -12,7 +12,7 @@ etc/Speaker_cal.acdb
 ## Camera
 etc/B05QL_s5k5e3yx_module_info.xml
 etc/G08QU_imx219_module_info.xml
-lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
+lib/hw/camera.msm8916.so
 lib/libaec_algo_front.so
 lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so
