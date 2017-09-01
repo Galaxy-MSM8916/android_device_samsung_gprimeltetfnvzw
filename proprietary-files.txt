@@ -91,7 +91,7 @@ vendor/lib/lib-sec-disp.so
 bin/rild
 lib/libril.so
 lib/librilutils.so
-lib/libsec-ril.so
+lib/libsec-ril.so|bd61d8dbfaa38fef67950b128486a0fb
 
 # Sensors - G530WVLS2AQB2_G530WOYA2AQB2_G530WVLS2AQB2
 etc/calib_SI_matrix_data_file.dat|218cb142a54fd552120df3d9f12853ff
