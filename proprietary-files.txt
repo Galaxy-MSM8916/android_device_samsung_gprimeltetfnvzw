@@ -73,9 +73,6 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
-# NFC
-etc/firmware/nfc_test.bin
-
 # Qualcomm framework
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
