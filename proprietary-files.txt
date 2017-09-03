@@ -88,9 +88,6 @@ vendor/lib/libqmi.so
 vendor/lib/lib-sec-disp.so
 
 # RIL
-bin/rild
-lib/libril.so
-lib/librilutils.so
 lib/libsec-ril.so|bd61d8dbfaa38fef67950b128486a0fb
 
 # Sensors - G530WVLS2AQB2_G530WOYA2AQB2_G530WVLS2AQB2
